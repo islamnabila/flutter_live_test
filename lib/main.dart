@@ -32,23 +32,23 @@ class MyHomePage extends StatelessWidget{
         children: [
           ListTile(
             leading: Icon(Icons.shopping_basket),
-            title: Text("Apples", style: TextStyle(fontSize: 18),),
+            title: Text("Apples", style: TextStyle(fontSize: 18,fontWeight: FontWeight.w500),),
           ),
           ListTile(
             leading: Icon(Icons.shopping_basket),
-            title: Text("Bananas",style: TextStyle(fontSize: 18),),
+            title: Text("Bananas",style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500),),
           ),
           ListTile(
             leading: Icon(Icons.shopping_basket),
-            title: Text("Bread",style: TextStyle(fontSize: 18),),
+            title: Text("Bread",style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500),),
           ),
           ListTile(
             leading: Icon(Icons.shopping_basket),
-            title: Text("Milk",style: TextStyle(fontSize: 18),),
+            title: Text("Milk",style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500),),
           ),
           ListTile(
             leading: Icon(Icons.shopping_basket),
-            title: Text("Eggs",style: TextStyle(fontSize: 18),),
+            title: Text("Eggs",style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500),),
           )
         ],
       ),
