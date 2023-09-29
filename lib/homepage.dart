@@ -34,15 +34,10 @@ class _MyHomeState extends State<MyHome> {
         ),
         itemBuilder: (context, index) {
           return Card(
-            child: Container(
-              margin: EdgeInsets.only(top: 10),
-              height: 150,
-              width: 150,
-              child: Align(
-                alignment: Alignment.topCenter,
-                child: Image.network(
-                  'https://via.placeholder.com/150',
-                ),
+            child: Align(
+              alignment: Alignment.topCenter,
+              child: Image.network(
+                'https://via.placeholder.com/150',
               ),
             ),
           );
