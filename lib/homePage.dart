@@ -24,7 +24,7 @@ class _MyHomePageState extends State<MyHomePage> {
     setState(() {
       selectedSize = size;
     });
-    // Pass the context to _showSnackBar
+
   }
 
   @override
